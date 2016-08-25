@@ -102,10 +102,10 @@ local function bot_stats()
   return text
 end
 local function run(msg, matches)
-  if matches[1]:lower() == 'blackplus' then -- Put everything you like :)
+  if matches[1]:lower() == 'anti_attack_bot' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
-    savelog(msg.to.id, name.." ["..msg.from.id.."] used /blackplus ")
+    savelog(msg.to.id, name.." ["..msg.from.id.."] used /anti_attack_bot ")
     return about
   end 
   if matches[1]:lower() == "statslist" then
@@ -132,7 +132,7 @@ local function run(msg, matches)
         return
       end
     end
-    if matches[2] == "blackplus" then
+    if matches[2] == "anti_attack_bot" then
       if not is_sudo(msg) then
         return "*You're Not Allowed."
       else
@@ -154,11 +154,11 @@ return {
     "^[#!/]([Ss]tats)$",
     "^[#!/]([Ss]tatslist)$",
     "^[#!/]([Ss]tats) (group) (%d+)",
-    "^[#!/]([Ss]tats) (blackplus)",
+    "^[#!/]([Ss]tats) (anti_attack_bot)",
     "^([Ss]tats)$",
     "^([Ss]tatslist)$",
     "^([Ss]tats) (group) (%d+)",
-    "^([Ss]tats) (blackplus)",
+    "^([Ss]tats) (anti_attack_bot)",
     }, 
   run = run
 }
