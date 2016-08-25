@@ -3,9 +3,9 @@
      **************************
      *  BlackPlus Plugins...  *
      *                        *
-     *     By @MehdiHS        *
+     *     By @helper_        *
      *                        *
-     *  Channel > @Black_Ch   *
+     *  Channel > @ralius     *
      **************************
 	 
 ]]
@@ -2496,9 +2496,9 @@ return {
      **************************
      *  BlackPlus Plugins...  *
      *                        *
-     *     By @MehdiHS        *
+     *     By @               *
      *                        *
-     *  Channel > @Black_Ch   *
+     *  Channel > @           *
      **************************
 	 
 ]]
