@@ -2300,18 +2300,18 @@ local function run(msg, matches)
 		end
 
 		if matches[1] == 'help' and not is_momod(msg) then
-			text = "سوال و پرسش براي بوت به پيوي ادمين رجوع كنيد"
+			text ="سوال و پرسش براي بوت به پيوي ادمين رجوع كنيد"
 			reply_msg(msg.id, text, ok_cb, false)
 		elseif matches[1] == 'help' and is_momod(msg) then
-			text = "سوال و پرسش براي بوت به پيوي ادمين رجوع كنيد"
+			text ="سوال و پرسش براي بوت به پيوي ادمين رجوع كنيد"
 		end
 		
 	if matches[1] == 'superhelp' and is_momod(msg) then
-			text = "سوال و پرسش براي بوت به پيوي ادمين رجوع كنيد"
+			text ="سوال و پرسش براي بوت به پيوي ادمين رجوع كنيد"
 			reply_msg(msg.id, text, ok_cb, false)
 	end
 	if matches[1] == 'superhelp' and msg.to.type == "user" then
-			text = "سوال و پرسش براي بوت به پيوي ادمين رجوع كنيد"
+			text ="سوال و پرسش براي بوت به پيوي ادمين رجوع كنيد"
 			reply_msg(msg.id, text, ok_cb, false)
 	end
 
